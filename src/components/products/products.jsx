@@ -15,6 +15,7 @@ export const Products = ({ products }) => {
                                 alt={prod.title} />
                             <div>
                                 <strong>{prod.title}</strong>
+                                <p>${prod.price}</p>
                             </div>
                             <div>
                                 <button>

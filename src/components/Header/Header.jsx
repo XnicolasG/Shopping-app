@@ -1,11 +1,11 @@
 import React from 'react'
 import Filter from '../Filter/Filter'
 
-const Header = ({changeFilters}) => {
+const Header = () => {
     return (
         <header>
             <h1>Shopping App 🛒 </h1>
-            <Filter changeFilters={changeFilters} />
+            <Filter />
         </header>
     )
 }
